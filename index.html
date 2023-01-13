@@ -1,0 +1,2473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webnifix Post Maker</title>
+    <meta name="description" content="Welcome to Webnifix Post Maker, a highly customizable post maker to create various types of posts easily without uploading them to a server.">
+    <meta name="keywords" content="Webnifix Post Maker, Post Maker Free">
+    <meta name="author" content="Vishal Kalansooriya">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- CSS & JS links -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jQueryV1.11.1.min.js" defer></script>
+    <script src="assets/js/croppie.js" defer></script>
+    <script src="assets/js/domToImage.min.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+
+    <!-- icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="assets/icon/manifest.json">
+  </head>
+
+  <body>
+    <div class="postContent" id="postContent">
+      <div id="imageData">
+        <div class="container" id="container" style="background-color: #efeeee;">
+          <div class="title" id="title">
+            <div class="firstTitleBox" id="firstTitleBox">
+              <h1 class="firstTitle" id="firstTitle">HOW DOES GOOGLE</h1>
+            </div>
+            <div class="secondTitleBox" id="secondTitleBox">  
+              <h1 class="secondTitle" id="secondTitle">TRACK YOU?</h1>
+            </div>
+          </div>
+          <div class="boxContainer" id="boxContainer">
+            <div class="box" id="box1" style="display: inline-block;">
+                <a href="#" id="boxData1">
+                  <img src="./assets/img/1.png" alt="img" id="img1">
+                </a>
+                <div class="boxText" id="boxText1">
+                  <h3 id="hT1">Chrome</h3>
+                  <p id="pT1">History &<br>Visited Sites</p>
+                </div>
+            </div>
+            <div class="box" id="box2" style="display: inline-block;">
+                <a href="#" id="boxData2">
+                  <img src="./assets/img/2.png" alt="img" id="img2">
+                </a>
+                <div class="boxText" id="boxText2">
+                  <h3 id="hT2">Gmail</h3>
+                  <p id="pT2">Contacts Emails Sent</p>
+                </div>
+            </div>
+            <div class="box" id="box3" style="display: inline-block;">
+                <a href="#" id="boxData3">
+                  <img src="./assets/img/3.png" alt="img" id="img3">
+                </a>
+                <div class="boxText" id="boxText3">
+                  <h3 id="hT3">Photos</h3>
+                  <p id="pT3">Peoples &<br>Places Tagged</p>
+                </div>
+            </div>
+            <div class="box" id="box4" style="display: inline-block;">
+                <a href="#" id="boxData4">
+                  <img src="./assets/img/4.png" alt="img" id="img4">
+                </a>
+                <div class="boxText" id="boxText4">
+                  <h3 id="hT4">Search</h3>
+                  <p id="pT4">Queries Searched</p>
+                </div>
+            </div>
+            <div class="box" id="box5" style="display: none;">
+                <a href="#" id="boxData5">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img5">
+                </a>
+                <div class="boxText" id="boxText5">
+                  <h3 id="hT5">Title</h3>
+                  <p id="pT5">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box6" style="display: none;">
+                <a href="#" id="boxData6">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img6">
+                </a>
+                <div class="boxText" id="boxText6">
+                  <h3 id="hT6">Title</h3>
+                  <p id="pT6">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box7" style="display: none;">
+                <a href="#" id="boxData7">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img7">
+                </a>
+                <div class="boxText" id="boxText7">
+                  <h3 id="hT7">Title</h3>
+                  <p id="pT7">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box8" style="display: none;">
+                <a href="#" id="boxData8">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img8">
+                </a>
+                <div class="boxText" id="boxText8">
+                  <h3 id="hT8">Title</h3>
+                  <p id="pT8">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box9" style="display: none;">
+                <a href="#" id="boxData9">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img9">
+                </a>
+                <div class="boxText" id="boxText9">
+                  <h3 id="hT9">Title</h3>
+                  <p id="pT9">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box10" style="display: none;">
+                <a href="#" id="boxData10">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img10">
+                </a>
+                <div class="boxText" id="boxText10">
+                  <h3 id="hT10">Title</h3>
+                  <p id="pT10">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box11" style="display: none;">
+                <a href="#" id="boxData11">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img11">
+                </a>
+                <div class="boxText" id="boxText11">
+                  <h3 id="hT11">Title</h3>
+                  <p id="pT11">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box12" style="display: none;">
+                <a href="#" id="boxData12">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img12">
+                </a>
+                <div class="boxText" id="boxText12">
+                  <h3 id="hT12">Title</h3>
+                  <p id="pT12">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box13" style="display: none;">
+                <a href="#" id="boxData13">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img13">
+                </a>
+                <div class="boxText" id="boxText13">
+                  <h3 id="hT13">Title</h3>
+                  <p id="pT13">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box14" style="display: none;">
+                <a href="#" id="boxData14">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img14">
+                </a>
+                <div class="boxText" id="boxText14">
+                  <h3 id="hT14">Title</h3>
+                  <p id="pT14">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box15" style="display: none;">
+                <a href="#" id="boxData15">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img15">
+                </a>
+                <div class="boxText" id="boxText15">
+                  <h3 id="hT15">Title</h3>
+                  <p id="pT15">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box16" style="display: none;">
+                <a href="#" id="boxData16">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img16">
+                </a>
+                <div class="boxText" id="boxText16">
+                  <h3 id="hT16">Title</h3>
+                  <p id="pT16">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box17" style="display: none;">
+                <a href="#" id="boxData17">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img17">
+                </a>
+                <div class="boxText" id="boxText17">
+                  <h3 id="hT17">Title</h3>
+                  <p id="pT17">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box18" style="display: none;">
+                <a href="#" id="boxData18">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img18">
+                </a>
+                <div class="boxText" id="boxText18">
+                  <h3 id="hT18">Title</h3>
+                  <p id="pT18">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box19" style="display: none;">
+                <a href="#" id="boxData19">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img19">
+                </a>
+                <div class="boxText" id="boxText19">
+                  <h3 id="hT19">Title</h3>
+                  <p id="pT19">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box20" style="display: none;">
+                <a href="#" id="boxData20">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img20">
+                </a>
+                <div class="boxText" id="boxText20">
+                  <h3 id="hT20">Title</h3>
+                  <p id="pT20">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box21" style="display: none;">
+                <a href="#" id="boxData21">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img21">
+                </a>
+                <div class="boxText" id="boxText21">
+                  <h3 id="hT21">Title</h3>
+                  <p id="pT21">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box22" style="display: none;">
+                <a href="#" id="boxData22">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img22">
+                </a>
+                <div class="boxText" id="boxText22">
+                  <h3 id="hT22">Title</h3>
+                  <p id="pT22">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box23" style="display: none;">
+                <a href="#" id="boxData23">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img23">
+                </a>
+                <div class="boxText" id="boxText23">
+                  <h3 id="hT23">Title</h3>
+                  <p id="pT23">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box24" style="display: none;">
+                <a href="#" id="boxData24">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img24">
+                </a>
+                <div class="boxText" id="boxText24">
+                  <h3 id="hT24">Title</h3>
+                  <p id="pT24">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box25" style="display: none;">
+                <a href="#" id="boxData25">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img25">
+                </a>
+                <div class="boxText" id="boxText25">
+                  <h3 id="hT25">Title</h3>
+                  <p id="pT25">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box26" style="display: none;">
+                <a href="#" id="boxData26">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img26">
+                </a>
+                <div class="boxText" id="boxText26">
+                  <h3 id="hT26">Title</h3>
+                  <p id="pT26">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box27" style="display: none;">
+                <a href="#" id="boxData27">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img27">
+                </a>
+                <div class="boxText" id="boxText27">
+                  <h3 id="hT27">Title</h3>
+                  <p id="pT27">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box28" style="display: none;">
+                <a href="#" id="boxData28">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img28">
+                </a>
+                <div class="boxText" id="boxText28">
+                  <h3 id="hT28">Title</h3>
+                  <p id="pT28">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box29" style="display: none;">
+                <a href="#" id="boxData29">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img29">
+                </a>
+                <div class="boxText" id="boxText29">
+                  <h3 id="hT29">Title</h3>
+                  <p id="pT29">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box30" style="display: none;">
+                <a href="#" id="boxData30">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img30">
+                </a>
+                <div class="boxText" id="boxText30">
+                  <h3 id="hT30">Title</h3>
+                  <p id="pT30">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box31" style="display: none;">
+                <a href="#" id="boxData31">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img31">
+                </a>
+                <div class="boxText" id="boxText31">
+                  <h3 id="hT31">Title</h3>
+                  <p id="pT31">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box32" style="display: none;">
+                <a href="#" id="boxData32">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img32">
+                </a>
+                <div class="boxText" id="boxText32">
+                  <h3 id="hT32">Title</h3>
+                  <p id="pT32">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box33" style="display: none;">
+                <a href="#" id="boxData33">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img33">
+                </a>
+                <div class="boxText" id="boxText33">
+                  <h3 id="hT33">Title</h3>
+                  <p id="pT33">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box34" style="display: none;">
+                <a href="#" id="boxData34">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img34">
+                </a>
+                <div class="boxText" id="boxText34">
+                  <h3 id="hT34">Title</h3>
+                  <p id="pT34">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box35" style="display: none;">
+                <a href="#" id="boxData35">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img35">
+                </a>
+                <div class="boxText" id="boxText35">
+                  <h3 id="hT35">Title</h3>
+                  <p id="pT35">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box36" style="display: none;">
+                <a href="#" id="boxData36">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img36">
+                </a>
+                <div class="boxText" id="boxText36">
+                  <h3 id="hT36">Title</h3>
+                  <p id="pT36">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box37" style="display: none;">
+                <a href="#" id="boxData37">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img37">
+                </a>
+                <div class="boxText" id="boxText37">
+                  <h3 id="hT37">Title</h3>
+                  <p id="pT37">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box38" style="display: none;">
+                <a href="#" id="boxData38">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img38">
+                </a>
+                <div class="boxText" id="boxText38">
+                  <h3 id="hT38">Title</h3>
+                  <p id="pT38">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box39" style="display: none;">
+                <a href="#" id="boxData39">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img39">
+                </a>
+                <div class="boxText" id="boxText39">
+                  <h3 id="hT39">Title</h3>
+                  <p id="pT39">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box40" style="display: none;">
+                <a href="#" id="boxData40">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img40">
+                </a>
+                <div class="boxText" id="boxText40">
+                  <h3 id="hT40">Title</h3>
+                  <p id="pT40">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box41" style="display: none;">
+                <a href="#" id="boxData41">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img41">
+                </a>
+                <div class="boxText" id="boxText41">
+                  <h3 id="hT41">Title</h3>
+                  <p id="pT41">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box42" style="display: none;">
+                <a href="#" id="boxData42">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img42">
+                </a>
+                <div class="boxText" id="boxText42">
+                  <h3 id="hT42">Title</h3>
+                  <p id="pT42">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box43" style="display: none;">
+                <a href="#" id="boxData43">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img43">
+                </a>
+                <div class="boxText" id="boxText43">
+                  <h3 id="hT43">Title</h3>
+                  <p id="pT43">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box44" style="display: none;">
+                <a href="#" id="boxData44">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img44">
+                </a>
+                <div class="boxText" id="boxText44">
+                  <h3 id="hT44">Title</h3>
+                  <p id="pT44">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box45" style="display: none;">
+                <a href="#" id="boxData45">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img45">
+                </a>
+                <div class="boxText" id="boxText45">
+                  <h3 id="hT45">Title</h3>
+                  <p id="pT45">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box46" style="display: none;">
+                <a href="#" id="boxData46">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img46">
+                </a>
+                <div class="boxText" id="boxText46">
+                  <h3 id="hT46">Title</h3>
+                  <p id="pT46">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box47" style="display: none;">
+                <a href="#" id="boxData47">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img47">
+                </a>
+                <div class="boxText" id="boxText47">
+                  <h3 id="hT47">Title</h3>
+                  <p id="pT47">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box48" style="display: none;">
+                <a href="#" id="boxData48">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img48">
+                </a>
+                <div class="boxText" id="boxText48">
+                  <h3 id="hT48">Title</h3>
+                  <p id="pT48">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box49" style="display: none;">
+                <a href="#" id="boxData49">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img49">
+                </a>
+                <div class="boxText" id="boxText49">
+                  <h3 id="hT49">Title</h3>
+                  <p id="pT49">Description</p>
+                </div>
+            </div>
+            <div class="box" id="box50" style="display: none;">
+                <a href="#" id="boxData50">
+                  <img src="./assets/img/webnifix.png" alt="img" id="img50">
+                </a>
+                <div class="boxText" id="boxText50">
+                  <h3 id="hT50">Title</h3>
+                  <p id="pT50">Description</p>
+                </div>
+            </div>
+          </div>
+          
+          <h6 id="copyrightMessage"><span id="firstCopyrightMsg">Copyright &copy; 2022</span><a href="#" id="personOrCompanyName"> Company Name</a><span id="secondCopyrightMsg">. Made with <span id="heartIcon" class='heartIcon'>&#10084;</span> by </span><a href="#" onclick="hidePost()" id="webnifixCompanyCopyright">Webnifix Post Maker</a></h6>
+
+          <article class="customImage">
+            <div id="customImageBox1" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage1">  
+            </div>
+            <div id="customImageBox2" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage2">  
+            </div>
+            <div id="customImageBox3" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage3">  
+            </div>
+            <div id="customImageBox4" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage4">  
+            </div>
+            <div id="customImageBox5" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage5">  
+            </div>
+            <div id="customImageBox6" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage6">  
+            </div>
+            <div id="customImageBox7" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage7">  
+            </div>
+            <div id="customImageBox8" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage8">  
+            </div>
+            <div id="customImageBox9" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage9">  
+            </div>
+            <div id="customImageBox10" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage10">  
+            </div>
+            <div id="customImageBox11" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage11">  
+            </div>
+            <div id="customImageBox12" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage12">  
+            </div>
+            <div id="customImageBox13" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage13">  
+            </div>
+            <div id="customImageBox14" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage14">  
+            </div>
+            <div id="customImageBox15" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage15">  
+            </div>
+            <div id="customImageBox16" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage16">  
+            </div>
+            <div id="customImageBox17" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage17">  
+            </div>
+            <div id="customImageBox18" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage18">  
+            </div>
+            <div id="customImageBox19" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage19">  
+            </div>
+            <div id="customImageBox20" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage20">  
+            </div>
+            <div id="customImageBox21" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage21">  
+            </div>
+            <div id="customImageBox22" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage22">  
+            </div>
+            <div id="customImageBox23" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage23">  
+            </div>
+            <div id="customImageBox24" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage24">  
+            </div>
+            <div id="customImageBox25" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage25">  
+            </div>
+            <div id="customImageBox26" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage26">  
+            </div>
+            <div id="customImageBox27" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage27">  
+            </div>
+            <div id="customImageBox28" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage28">  
+            </div>
+            <div id="customImageBox29" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage29">  
+            </div>
+            <div id="customImageBox30" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage30">  
+            </div>
+            <div id="customImageBox31" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage31">  
+            </div>
+            <div id="customImageBox32" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage32">  
+            </div>
+            <div id="customImageBox33" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage33">  
+            </div>
+            <div id="customImageBox34" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage34">  
+            </div>
+            <div id="customImageBox35" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage35">  
+            </div>
+            <div id="customImageBox36" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage36">  
+            </div>
+            <div id="customImageBox37" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage37">  
+            </div>
+            <div id="customImageBox38" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage38">  
+            </div>
+            <div id="customImageBox39" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage39">  
+            </div>
+            <div id="customImageBox40" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage40">  
+            </div>
+            <div id="customImageBox41" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage41">  
+            </div>
+            <div id="customImageBox42" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage42">  
+            </div>
+            <div id="customImageBox43" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage43">  
+            </div>
+            <div id="customImageBox44" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage44">  
+            </div>
+            <div id="customImageBox45" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage45">  
+            </div>
+            <div id="customImageBox46" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage46">  
+            </div>
+            <div id="customImageBox47" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage47">  
+            </div>
+            <div id="customImageBox48" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage48">  
+            </div>
+            <div id="customImageBox49" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage49">  
+            </div>
+            <div id="customImageBox50" style="display: none;">
+              <img src="./assets/img/webnifix.png" alt="img" id="customImage50">  
+            </div>
+          </article>
+
+          <article class="customText">
+            <div style="display: none;" id="customTextBox1">
+              <span id="customText1">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox2">
+              <span id="customText2">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox3">
+              <span id="customText3">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox4">
+              <span id="customText4">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox5">
+              <span id="customText5">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox6">
+              <span id="customText6">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox7">
+              <span id="customText7">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox8">
+              <span id="customText8">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox9">
+              <span id="customText9">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox10">
+              <span id="customText10">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox11">
+              <span id="customText11">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox12">
+              <span id="customText12">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox13">
+              <span id="customText13">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox14">
+              <span id="customText14">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox15">
+              <span id="customText15">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox16">
+              <span id="customText16">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox17">
+              <span id="customText17">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox18">
+              <span id="customText18">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox19">
+              <span id="customText19">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox20">
+              <span id="customText20">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox21">
+              <span id="customText21">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox22">
+              <span id="customText22">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox23">
+              <span id="customText23">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox24">
+              <span id="customText24">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox25">
+              <span id="customText25">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox26">
+              <span id="customText26">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox27">
+              <span id="customText27">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox28">
+              <span id="customText28">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox29">
+              <span id="customText29">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox30">
+              <span id="customText30">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox31">
+              <span id="customText31">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox32">
+              <span id="customText32">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox33">
+              <span id="customText33">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox34">
+              <span id="customText34">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox35">
+              <span id="customText35">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox36">
+              <span id="customText36">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox37">
+              <span id="customText37">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox38">
+              <span id="customText38">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox39">
+              <span id="customText39">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox40">
+              <span id="customText40">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox41">
+              <span id="customText41">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox42">
+              <span id="customText42">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox43">
+              <span id="customText43">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox44">
+              <span id="customText44">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox45">
+              <span id="customText45">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox46">
+              <span id="customText46">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox47">
+              <span id="customText47">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox48">
+              <span id="customText48">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox49">
+              <span id="customText49">YOUR TEXT GOES HERE</span>
+            </div>
+            <div style="display: none;" id="customTextBox50">
+              <span id="customText50">YOUR TEXT GOES HERE</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="inputs" id="inputs">
+      <details open class="contentMenuBar">
+        <summary>Menu Bar</summary>
+          <div class="navButtonsVertical" id="navButtons">
+            <button id="showPost" onclick="showPost()">View Post</button>
+            <button id="showEditor" onclick="showEditor()">View Editor</button>
+            <button id="fullscreen" onclick="fullscreen()">Go Fullscreen</button>
+            <button onclick="saveImage()">Export</button>
+            <button id="zoomOut" onclick="zoomOut()">Zoom Out</button>
+            <button id="zoomNormal" onclick="zoomNormal()">100%</button>
+            <button id="zoomIn" onclick="zoomIn()">Zoom In</button>
+          </div>
+          
+          <div class="navButtonsHorizontal navButtonsHorizontalPositioning" id="navButtonsOnScroll">
+            <button id="showPostOnScroll" onclick="showPost()">View Post</button>
+            <button id="showEditorOnScroll" onclick="showEditor()">View Editor</button>
+            <button id="fullscreenOnScroll" onclick="fullscreen()">Go Fullscreen</button>
+            <button onclick="saveImage()">Export</button>
+            <button id="zoomOutOnScroll" onclick="zoomOut()">Zoom Out</button>
+            <button id="zoomNormalOnScroll" onclick="zoomNormal()">100%</button>
+            <button id="zoomInOnScroll" onclick="zoomIn()">Zoom In</button>
+          </div>
+      </details>
+
+      <details class="contentTitle">
+        <summary>Title</summary>
+        <div class="titleInput">
+          <input type='text' id='inputFirstTitle' placeholder='First Title'>
+          <input type='text' id='inputSecondTitle' placeholder='Second Title'>
+        </div>
+      </details>
+      
+      <details class="contentDetails">
+        <summary>Content</summary>
+        <div id="input1" class="inputItems">
+          <legend>1st Item</legend>
+          <input type="file" id="inputImage1">
+          <div id="cropPreview1"></div>
+          <button id="cropImage1">Crop Image</button>
+          <button id="revertImage1">Revert Image</button><br>
+          <input type="text" id="h1" placeholder="1st Item Title">
+          <input type="text" id="p1" placeholder="1st Item Description">
+        </div>
+        <div id="input2" class="inputItems">
+          <legend>2nd Item</legend>
+          <input type="file" id="inputImage2">
+          <div id="cropPreview2"></div>
+          <button id="cropImage2">Crop Image</button>
+          <button id="revertImage2">Revert Image</button><br>
+          <input type="text" id="h2" placeholder="2nd Item Title">
+          <input type="text" id="p2" placeholder="2nd Item Description">
+        </div>
+        <div id="input3" class="inputItems">
+          <legend>3rd Item</legend>
+          <input type="file" id="inputImage3">
+          <div id="cropPreview3"></div>
+          <button id="cropImage3">Crop Image</button>
+          <button id="revertImage3">Revert Image</button><br>
+          <input type="text" id="h3" placeholder="3rd Item Title">
+          <input type="text" id="p3" placeholder="3rd Item Description">
+        </div>
+        <div id="input4" class="inputItems">
+          <legend>4th Item</legend>
+          <input type="file" id="inputImage4">
+          <div id="cropPreview4"></div>
+          <button id="cropImage4">Crop Image</button>
+          <button id="revertImage4">Revert Image</button><br>
+          <input type="text" id="h4" placeholder="4th Item Title">
+          <input type="text" id="p4" placeholder="4th Item Description">
+        </div>
+        <div id="input5" class="inputItems hidden">
+          <legend>5th Item</legend>
+          <input type="file" id="inputImage5">
+          <div id="cropPreview5"></div>
+          <button id="cropImage5">Crop Image</button>
+          <button id="revertImage5">Revert Image</button><br>
+          <input type="text" id="h5" placeholder="5th Item Title">
+          <input type="text" id="p5" placeholder="5th Item Description">
+        </div>
+        <div id="input6" class="inputItems hidden">
+          <legend>6th Item</legend>
+          <input type="file" id="inputImage6">
+          <div id="cropPreview6"></div>
+          <button id="cropImage6">Crop Image</button>
+          <button id="revertImage6">Revert Image</button><br>
+          <input type="text" id="h6" placeholder="6th Item Title">
+          <input type="text" id="p6" placeholder="6th Item Description">
+        </div>
+        <div id="input7" class="inputItems hidden">
+          <legend>7th Item</legend>
+          <input type="file" id="inputImage7">
+          <div id="cropPreview7"></div>
+          <button id="cropImage7">Crop Image</button>
+          <button id="revertImage7">Revert Image</button><br>
+          <input type="text" id="h7" placeholder="7th Item Title">
+          <input type="text" id="p7" placeholder="7th Item Description">
+        </div>
+        <div id="input8" class="inputItems hidden">
+          <legend>8th Item</legend>
+          <input type="file" id="inputImage8">
+          <div id="cropPreview8"></div>
+          <button id="cropImage8">Crop Image</button>
+          <button id="revertImage8">Revert Image</button><br>
+          <input type="text" id="h8" placeholder="8th Item Title">
+          <input type="text" id="p8" placeholder="8th Item Description">
+        </div>
+        <div id="input9" class="inputItems hidden">
+          <legend>9th Item</legend>
+          <input type="file" id="inputImage9">
+          <div id="cropPreview9"></div>
+          <button id="cropImage9">Crop Image</button>
+          <button id="revertImage9">Revert Image</button><br>
+          <input type="text" id="h9" placeholder="9th Item Title">
+          <input type="text" id="p9" placeholder="9th Item Description">
+        </div>
+        <div id="input10" class="inputItems hidden">
+          <legend>10th Item</legend>
+          <input type="file" id="inputImage10">
+          <div id="cropPreview10"></div>
+          <button id="cropImage10">Crop Image</button>
+          <button id="revertImage10">Revert Image</button><br>
+          <input type="text" id="h10" placeholder="10th Item Title">
+          <input type="text" id="p10" placeholder="10th Item Description">
+        </div>
+        <div id="input11" class="inputItems hidden">
+          <legend>11th Item</legend>
+          <input type="file" id="inputImage11">
+          <div id="cropPreview11"></div>
+          <button id="cropImage11">Crop Image</button>
+          <button id="revertImage11">Revert Image</button><br>
+          <input type="text" id="h11" placeholder="11st Item Title">
+          <input type="text" id="p11" placeholder="11st Item Description">
+        </div>
+        <div id="input12" class="inputItems hidden">
+          <legend>12th Item</legend>
+          <input type="file" id="inputImage12">
+          <div id="cropPreview12"></div>
+          <button id="cropImage12">Crop Image</button>
+          <button id="revertImage12">Revert Image</button><br>
+          <input type="text" id="h12" placeholder="12nd Item Title">
+          <input type="text" id="p12" placeholder="12nd Item Description">
+        </div>
+        <div id="input13" class="inputItems hidden">
+          <legend>13th Item</legend>
+          <input type="file" id="inputImage13">
+          <div id="cropPreview13"></div>
+          <button id="cropImage13">Crop Image</button>
+          <button id="revertImage13">Revert Image</button><br>
+          <input type="text" id="h13" placeholder="13rd Item Title">
+          <input type="text" id="p13" placeholder="13rd Item Description">
+        </div>
+        <div id="input14" class="inputItems hidden">
+          <legend>14th Item</legend>
+          <input type="file" id="inputImage14">
+          <div id="cropPreview14"></div>
+          <button id="cropImage14">Crop Image</button>
+          <button id="revertImage14">Revert Image</button><br>
+          <input type="text" id="h14" placeholder="14th Item Title">
+          <input type="text" id="p14" placeholder="14th Item Description">
+        </div>
+        <div id="input15" class="inputItems hidden">
+          <legend>15th Item</legend>
+          <input type="file" id="inputImage15">
+          <div id="cropPreview15"></div>
+          <button id="cropImage15">Crop Image</button>
+          <button id="revertImage15">Revert Image</button><br>
+          <input type="text" id="h15" placeholder="15th Item Title">
+          <input type="text" id="p15" placeholder="15th Item Description">
+        </div>
+        <div id="input16" class="inputItems hidden">
+          <legend>16th Item</legend>
+          <input type="file" id="inputImage16">
+          <div id="cropPreview16"></div>
+          <button id="cropImage16">Crop Image</button>
+          <button id="revertImage16">Revert Image</button><br>
+          <input type="text" id="h16" placeholder="16th Item Title">
+          <input type="text" id="p16" placeholder="16th Item Description">
+        </div>
+        <div id="input17" class="inputItems hidden">
+          <legend>17th Item</legend>
+          <input type="file" id="inputImage17">
+          <div id="cropPreview17"></div>
+          <button id="cropImage17">Crop Image</button>
+          <button id="revertImage17">Revert Image</button><br>
+          <input type="text" id="h17" placeholder="17th Item Title">
+          <input type="text" id="p17" placeholder="17th Item Description">
+        </div>
+        <div id="input18" class="inputItems hidden">
+          <legend>18th Item</legend>
+          <input type="file" id="inputImage18">
+          <div id="cropPreview18"></div>
+          <button id="cropImage18">Crop Image</button>
+          <button id="revertImage18">Revert Image</button><br>
+          <input type="text" id="h18" placeholder="18th Item Title">
+          <input type="text" id="p18" placeholder="18th Item Description">
+        </div>
+        <div id="input19" class="inputItems hidden">
+          <legend>19th Item</legend>
+          <input type="file" id="inputImage19">
+          <div id="cropPreview19"></div>
+          <button id="cropImage19">Crop Image</button>
+          <button id="revertImage19">Revert Image</button><br>
+          <input type="text" id="h19" placeholder="19th Item Title">
+          <input type="text" id="p19" placeholder="19th Item Description">
+        </div>
+        <div id="input20" class="inputItems hidden">
+          <legend>20th Item</legend>
+          <input type="file" id="inputImage20">
+          <div id="cropPreview20"></div>
+          <button id="cropImage20">Crop Image</button>
+          <button id="revertImage20">Revert Image</button><br>
+          <input type="text" id="h20" placeholder="20th Item Title">
+          <input type="text" id="p20" placeholder="20th Item Description">
+        </div>
+        <div id="input21" class="inputItems hidden">
+          <legend>21st Item</legend>
+          <input type="file" id="inputImage21">
+          <div id="cropPreview21"></div>
+          <button id="cropImage21">Crop Image</button>
+          <button id="revertImage21">Revert Image</button><br>
+          <input type="text" id="h21" placeholder="21st Item Title">
+          <input type="text" id="p21" placeholder="21st Item Description">
+        </div>
+        <div id="input22" class="inputItems hidden">
+          <legend>22nd Item</legend>
+          <input type="file" id="inputImage22">
+          <div id="cropPreview22"></div>
+          <button id="cropImage22">Crop Image</button>
+          <button id="revertImage22">Revert Image</button><br>
+          <input type="text" id="h22" placeholder="22nd Item Title">
+          <input type="text" id="p22" placeholder="22nd Item Description">
+        </div>
+        <div id="input23" class="inputItems hidden">
+          <legend>23rd Item</legend>
+          <input type="file" id="inputImage23">
+          <div id="cropPreview23"></div>
+          <button id="cropImage23">Crop Image</button>
+          <button id="revertImage23">Revert Image</button><br>
+          <input type="text" id="h23" placeholder="23rd Item Title">
+          <input type="text" id="p23" placeholder="23rd Item Description">
+        </div>
+        <div id="input24" class="inputItems hidden">
+          <legend>24th Item</legend>
+          <input type="file" id="inputImage24">
+          <div id="cropPreview24"></div>
+          <button id="cropImage24">Crop Image</button>
+          <button id="revertImage24">Revert Image</button><br>
+          <input type="text" id="h24" placeholder="24th Item Title">
+          <input type="text" id="p24" placeholder="24th Item Description">
+        </div>
+        <div id="input25" class="inputItems hidden">
+          <legend>25th Item</legend>
+          <input type="file" id="inputImage25">
+          <div id="cropPreview25"></div>
+          <button id="cropImage25">Crop Image</button>
+          <button id="revertImage25">Revert Image</button><br>
+          <input type="text" id="h25" placeholder="25th Item Title">
+          <input type="text" id="p25" placeholder="25th Item Description">
+        </div>
+        <div id="input26" class="inputItems hidden">
+          <legend>26th Item</legend>
+          <input type="file" id="inputImage26">
+          <div id="cropPreview26"></div>
+          <button id="cropImage26">Crop Image</button>
+          <button id="revertImage26">Revert Image</button><br>
+          <input type="text" id="h26" placeholder="26th Item Title">
+          <input type="text" id="p26" placeholder="26th Item Description">
+        </div>
+        <div id="input27" class="inputItems hidden">
+          <legend>27th Item</legend>
+          <input type="file" id="inputImage27">
+          <div id="cropPreview27"></div>
+          <button id="cropImage27">Crop Image</button>
+          <button id="revertImage27">Revert Image</button><br>
+          <input type="text" id="h27" placeholder="27th Item Title">
+          <input type="text" id="p27" placeholder="27th Item Description">
+        </div>
+        <div id="input28" class="inputItems hidden">
+          <legend>28th Item</legend>
+          <input type="file" id="inputImage28">
+          <div id="cropPreview28"></div>
+          <button id="cropImage28">Crop Image</button>
+          <button id="revertImage28">Revert Image</button><br>
+          <input type="text" id="h28" placeholder="28th Item Title">
+          <input type="text" id="p28" placeholder="28th Item Description">
+        </div>
+        <div id="input29" class="inputItems hidden">
+          <legend>29th Item</legend>
+          <input type="file" id="inputImage29">
+          <div id="cropPreview29"></div>
+          <button id="cropImage29">Crop Image</button>
+          <button id="revertImage29">Revert Image</button><br>
+          <input type="text" id="h29" placeholder="29th Item Title">
+          <input type="text" id="p29" placeholder="29th Item Description">
+        </div>
+        <div id="input30" class="inputItems hidden">
+          <legend>30th Item</legend>
+          <input type="file" id="inputImage30">
+          <div id="cropPreview30"></div>
+          <button id="cropImage30">Crop Image</button>
+          <button id="revertImage30">Revert Image</button><br>
+          <input type="text" id="h30" placeholder="30th Item Title">
+          <input type="text" id="p30" placeholder="30th Item Description">
+        </div>
+        <div id="input31" class="inputItems hidden">
+          <legend>31st Item</legend>
+          <input type="file" id="inputImage31">
+          <div id="cropPreview31"></div>
+          <button id="cropImage31">Crop Image</button>
+          <button id="revertImage31">Revert Image</button><br>
+          <input type="text" id="h31" placeholder="31st Item Title">
+          <input type="text" id="p31" placeholder="31st Item Description">
+        </div>
+        <div id="input32" class="inputItems hidden">
+          <legend>32nd Item</legend>
+          <input type="file" id="inputImage32">
+          <div id="cropPreview32"></div>
+          <button id="cropImage32">Crop Image</button>
+          <button id="revertImage32">Revert Image</button><br>
+          <input type="text" id="h32" placeholder="32nd Item Title">
+          <input type="text" id="p32" placeholder="32nd Item Description">
+        </div>
+        <div id="input33" class="inputItems hidden">
+          <legend>33rd Item</legend>
+          <input type="file" id="inputImage33">
+          <div id="cropPreview33"></div>
+          <button id="cropImage33">Crop Image</button>
+          <button id="revertImage33">Revert Image</button><br>
+          <input type="text" id="h33" placeholder="33rd Item Title">
+          <input type="text" id="p33" placeholder="33rd Item Description">
+        </div>
+        <div id="input34" class="inputItems hidden">
+          <legend>34th Item</legend>
+          <input type="file" id="inputImage34">
+          <div id="cropPreview34"></div>
+          <button id="cropImage34">Crop Image</button>
+          <button id="revertImage34">Revert Image</button><br>
+          <input type="text" id="h34" placeholder="34th Item Title">
+          <input type="text" id="p34" placeholder="34th Item Description">
+        </div>
+        <div id="input35" class="inputItems hidden">
+          <legend>35th Item</legend>
+          <input type="file" id="inputImage35">
+          <div id="cropPreview35"></div>
+          <button id="cropImage35">Crop Image</button>
+          <button id="revertImage35">Revert Image</button><br>
+          <input type="text" id="h35" placeholder="35th Item Title">
+          <input type="text" id="p35" placeholder="35th Item Description">
+        </div>
+        <div id="input36" class="inputItems hidden">
+          <legend>36th Item</legend>
+          <input type="file" id="inputImage36">
+          <div id="cropPreview36"></div>
+          <button id="cropImage36">Crop Image</button>
+          <button id="revertImage36">Revert Image</button><br>
+          <input type="text" id="h36" placeholder="36th Item Title">
+          <input type="text" id="p36" placeholder="36th Item Description">
+        </div>
+        <div id="input37" class="inputItems hidden">
+          <legend>37th Item</legend>
+          <input type="file" id="inputImage37">
+          <div id="cropPreview37"></div>
+          <button id="cropImage37">Crop Image</button>
+          <button id="revertImage37">Revert Image</button><br>
+          <input type="text" id="h37" placeholder="37th Item Title">
+          <input type="text" id="p37" placeholder="37th Item Description">
+        </div>
+        <div id="input38" class="inputItems hidden">
+          <legend>38th Item</legend>
+          <input type="file" id="inputImage38">
+          <div id="cropPreview38"></div>
+          <button id="cropImage38">Crop Image</button>
+          <button id="revertImage38">Revert Image</button><br>
+          <input type="text" id="h38" placeholder="38th Item Title">
+          <input type="text" id="p38" placeholder="38th Item Description">
+        </div>
+        <div id="input39" class="inputItems hidden">
+          <legend>39th Item</legend>
+          <input type="file" id="inputImage39">
+          <div id="cropPreview39"></div>
+          <button id="cropImage39">Crop Image</button>
+          <button id="revertImage39">Revert Image</button><br>
+          <input type="text" id="h39" placeholder="39th Item Title">
+          <input type="text" id="p39" placeholder="39th Item Description">
+        </div>
+        <div id="input40" class="inputItems hidden">
+          <legend>40th Item</legend>
+          <input type="file" id="inputImage40">
+          <div id="cropPreview40"></div>
+          <button id="cropImage40">Crop Image</button>
+          <button id="revertImage40">Revert Image</button><br>
+          <input type="text" id="h40" placeholder="40th Item Title">
+          <input type="text" id="p40" placeholder="40th Item Description">
+        </div>
+        <div id="input41" class="inputItems hidden">
+          <legend>41st Item</legend>
+          <input type="file" id="inputImage41">
+          <div id="cropPreview41"></div>
+          <button id="cropImage41">Crop Image</button>
+          <button id="revertImage41">Revert Image</button><br>
+          <input type="text" id="h41" placeholder="41st Item Title">
+          <input type="text" id="p41" placeholder="41st Item Description">
+        </div>
+        <div id="input42" class="inputItems hidden">
+          <legend>42nd Item</legend>
+          <input type="file" id="inputImage42">
+          <div id="cropPreview42"></div>
+          <button id="cropImage42">Crop Image</button>
+          <button id="revertImage42">Revert Image</button><br>
+          <input type="text" id="h42" placeholder="42nd Item Title">
+          <input type="text" id="p42" placeholder="42nd Item Description">
+        </div>
+        <div id="input43" class="inputItems hidden">
+          <legend>43rd Item</legend>
+          <input type="file" id="inputImage43">
+          <div id="cropPreview43"></div>
+          <button id="cropImage43">Crop Image</button>
+          <button id="revertImage43">Revert Image</button><br>
+          <input type="text" id="h43" placeholder="43rd Item Title">
+          <input type="text" id="p43" placeholder="43rd Item Description">
+        </div>
+        <div id="input44" class="inputItems hidden">
+          <legend>44th Item</legend>
+          <input type="file" id="inputImage44">
+          <div id="cropPreview44"></div>
+          <button id="cropImage44">Crop Image</button>
+          <button id="revertImage44">Revert Image</button><br>
+          <input type="text" id="h44" placeholder="44th Item Title">
+          <input type="text" id="p44" placeholder="44th Item Description">
+        </div>
+        <div id="input45" class="inputItems hidden">
+          <legend>45th Item</legend>
+          <input type="file" id="inputImage45">
+          <div id="cropPreview45"></div>
+          <button id="cropImage45">Crop Image</button>
+          <button id="revertImage45">Revert Image</button><br>
+          <input type="text" id="h45" placeholder="45th Item Title">
+          <input type="text" id="p45" placeholder="45th Item Description">
+        </div>
+        <div id="input46" class="inputItems hidden">
+          <legend>46th Item</legend>
+          <input type="file" id="inputImage46">
+          <div id="cropPreview46"></div>
+          <button id="cropImage46">Crop Image</button>
+          <button id="revertImage46">Revert Image</button><br>
+          <input type="text" id="h46" placeholder="46th Item Title">
+          <input type="text" id="p46" placeholder="46th Item Description">
+        </div>
+        <div id="input47" class="inputItems hidden">
+          <legend>47th Item</legend>
+          <input type="file" id="inputImage47">
+          <div id="cropPreview47"></div>
+          <button id="cropImage47">Crop Image</button>
+          <button id="revertImage47">Revert Image</button><br>
+          <input type="text" id="h47" placeholder="47th Item Title">
+          <input type="text" id="p47" placeholder="47th Item Description">
+        </div>
+        <div id="input48" class="inputItems hidden">
+          <legend>48th Item</legend>
+          <input type="file" id="inputImage48">
+          <div id="cropPreview48"></div>
+          <button id="cropImage48">Crop Image</button>
+          <button id="revertImage48">Revert Image</button><br>
+          <input type="text" id="h48" placeholder="48th Item Title">
+          <input type="text" id="p48" placeholder="48th Item Description">
+        </div>
+        <div id="input49" class="inputItems hidden">
+          <legend>49th Item</legend>
+          <input type="file" id="inputImage49">
+          <div id="cropPreview49"></div>
+          <button id="cropImage49">Crop Image</button>
+          <button id="revertImage49">Revert Image</button><br>
+          <input type="text" id="h49" placeholder="49th Item Title">
+          <input type="text" id="p49" placeholder="49th Item Description">
+        </div>
+        <div id="input50" class="inputItems hidden">
+          <legend>50th Item</legend>
+          <input type="file" id="inputImage50">
+          <div id="cropPreview50"></div>
+          <button id="cropImage50">Crop Image</button>
+          <button id="revertImage50">Revert Image</button><br>
+          <input type="text" id="h50" placeholder="50th Item Title">
+          <input type="text" id="p50" placeholder="50th Item Description">
+        </div>
+        
+        <div class="addRemove">
+          <button type="button" onclick="add()" id="add">Add</button>
+          <button type="button" onclick="remove()" id="remove">Remove</button>
+        </div>
+      </details>
+      
+      <details class="contentCopyright">
+        <summary>Copyright</summary>
+        <div class="copyrightInput">
+          <div class="copyrightButtons">
+            <label>You are a : </label>
+            <input type="radio" name="companyOrPerson" id="companyCopyright" onclick="companyCopyrightMode()" value="Company" checked><label for="companyCopyright">Company &nbsp;</label>
+            <input type="radio" name="companyOrPerson" id="personCopyright" onclick="personCopyrightMode()" value="Person"><label for="personCopyright">Person &nbsp;</label>
+          </div>
+          <input type="text" id="companyOrPersonNameInput" placeholder="Company Name">
+        </div>
+      </details>
+      
+      <details class="contentModes">
+        <summary>Modes</summary>
+        <div class="modesInput">
+          <legend><span id="modeState">Text below image mode</span><span id="modeStateHidden"></span> is selected</legend>
+          <div class="buttonContainer">
+            <input type="button" id="textBelowImgMode" onclick="changeToTextBelowImgMode()" value="Text below image mode">
+            <input type="button" id="textSideByImgMode" onclick="changeToTextSideByImgMode()" value="Text side by image mode">
+            <input type="button" id="oneColumnMode" onclick="changeToOneColumnMode()" value="One column mode">
+          </div>
+          <div class="nightMode">
+            <input type="checkbox" id="dayNightMode" onclick="changeToNightMode()"><label for="dayNightMode">Night Mode</label>
+          </div>
+        </div>
+      </details>
+      
+      <details class="contentFontColors">
+        <summary>Font Colors</summary>
+        <div class="fontColorInput">
+          <div class="colorContainer">
+            <legend>First Title</legend><br><input type="color" id="firstTitleColorPicker" value="#111111"><span id="firstTitleColorIndicator">#111111</span>
+          </div>
+          <div class="colorContainer">
+            <legend>Second Title</legend><br><input type="color" id="secondTitleColorPicker" value="#0da376"><span id="secondTitleColorIndicator">#0da376</span>
+          </div>
+          <div class="colorContainer">
+            <legend>Content Header</legend><br><input type="color" id="boxHeaderColorPicker" value="#0da376"><span id="boxHeaderColorIndicator">#0da376</span>
+          </div>
+          <div class="colorContainer">
+            <legend>Content Body</legend><br><input type="color" id="boxParagraphColorPicker" value="#111111"><span id="boxParagraphColorIndicator">#111111</span>
+          </div>
+          <div class="colorContainer">
+            <legend>Copyright Text</legend><br><input type="color" id="copyrightColorPicker" value="#111111"><span id="copyrightColorIndicator">#111111</span>
+          </div>
+          <div class="colorContainer">
+            <legend>Copyright Links</legend><br><input type="color" id="copyrightCompanyNameColorPicker" value="#111111"><span id="copyrightCompanyNameColorIndicator">#111111</span>
+          </div>
+        </div>
+      </details>
+      
+      <details class="contentFontSizes">
+        <summary>Font Sizes</summary>
+        <div class="fontSizesInput">
+          <div class="rangeContainer">
+            <legend>Container Width</legend><br><input type="range" id="firstTitleTextSize" min="10" max="50" value="36"><span id="firstTitleTextSizeIndicator">36px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Container Width</legend><br><input type="range" id="secondTitleTextSize" min="10" max="50" value="36"><span id="secondTitleTextSizeIndicator">36px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Container Width</legend><br><input type="range" id="boxHeaderTextSize" min="8" max="30" value="16"><span id="boxHeaderTextSizeIndicator">16px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Container Width</legend><br><input type="range" id="boxParagraphTextSize" min="8" max="30" value="16"><span id="boxParagraphTextSizeIndicator">16px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Container Width</legend><br><input type="range" id="copyrightTextSize" min="4" max="20" value="12"><span id="copyrightTextSizeIndicator">12px</span>
+          </div>
+        </div>
+      </details>
+      
+      <details>
+        <summary>Alignments</summary>
+        <div class="alignmentsInput">
+          <div class="radioContainer">
+            <legend>Content Text Width</legend><br>
+            <input type="radio" name="firstTitleAlignment" id="firstTitleAlignmentLeft" onclick="firstTitleAlignmentLeft()" value="left"><label for="firstTitleAlignmentLeft">Left</label>
+            <input type="radio" name="firstTitleAlignment" id="firstTitleAlignmentRight" onclick="firstTitleAlignmentRight()" value="right"><label for="firstTitleAlignmentRight">Right</label>
+            <input type="radio" name="firstTitleAlignment" id="firstTitleAlignmentCenter" onclick="firstTitleAlignmentCenter()" value="center" checked><label for="firstTitleAlignmentCenter">Center</label>
+            <input type="radio" name="firstTitleAlignment" id="firstTitleAlignmentJustify" onclick="firstTitleAlignmentJustify()" value="justify"><label for="firstTitleAlignmentJustify">Justify</label>
+          </div>
+          <div class="radioContainer">
+            <legend>Content Text Width</legend><br>
+            <input type="radio" name="secondTitleAlignment" id="secondTitleAlignmentLeft" onclick="secondTitleAlignmentLeft()" value="left"><label for="secondTitleAlignmentLeft">Left</label>
+            <input type="radio" name="secondTitleAlignment" id="secondTitleAlignmentRight" onclick="secondTitleAlignmentRight()" value="right"><label for="secondTitleAlignmentRight">Right</label>
+            <input type="radio" name="secondTitleAlignment" id="secondTitleAlignmentCenter" onclick="secondTitleAlignmentCenter()" value="center" checked><label for="secondTitleAlignmentCenter">Center</label>
+            <input type="radio" name="secondTitleAlignment" id="secondTitleAlignmentJustify" onclick="secondTitleAlignmentJustify()" value="justify"><label for="secondTitleAlignmentJustify">Justify</label>
+          </div>
+          <div class="radioContainer">
+            <legend>Content Text Width</legend><br>
+            <input type="radio" name="itemBoxAlignment" id="itemBoxAlignmentLeft" onclick="itemBoxAlignmentLeft()" value="left"><label for="itemBoxAlignmentLeft">Left</label>
+            <input type="radio" name="itemBoxAlignment" id="itemBoxAlignmentRight" onclick="itemBoxAlignmentRight()" value="right"><label for="itemBoxAlignmentRight">Right</label>
+            <input type="radio" name="itemBoxAlignment" id="itemBoxAlignmentCenter" onclick="itemBoxAlignmentCenter()" value="center" checked><label for="itemBoxAlignmentCenter">Center</label>
+            <input type="radio" name="itemBoxAlignment" id="itemBoxAlignmentJustify" onclick="itemBoxAlignmentJustify()" value="justify"><label for="itemBoxAlignmentJustify">Justify</label>
+          </div>
+          <div class="radioContainer">
+            <legend>Content Text Width</legend><br>
+            <input type="radio" name="imageBoxAlignment" id="imageBoxAlignmentLeft" onclick="imageBoxAlignmentLeft()" value="left"><label for="imageBoxAlignmentLeft">Left</label>
+            <input type="radio" name="imageBoxAlignment" id="imageBoxAlignmentRight" onclick="imageBoxAlignmentRight()" value="right"><label for="imageBoxAlignmentRight">Right</label>
+            <input type="radio" name="imageBoxAlignment" id="imageBoxAlignmentCenter" onclick="imageBoxAlignmentCenter()" value="center" checked><label for="imageBoxAlignmentCenter">Center</label>
+            <input type="radio" name="imageBoxAlignment" id="imageBoxAlignmentJustify" onclick="imageBoxAlignmentJustify()" value="justify"><label for="imageBoxAlignmentJustify">Justify</label>
+          </div>
+          <div class="radioContainer">
+            <legend>Content Text Width</legend><br>
+            <input type="radio" name="itemHeaderAlignment" id="itemHeaderAlignmentLeft" onclick="itemHeaderAlignmentLeft()" value="left"><label for="itemHeaderAlignmentLeft">Left</label>
+            <input type="radio" name="itemHeaderAlignment" id="itemHeaderAlignmentRight" onclick="itemHeaderAlignmentRight()" value="right"><label for="itemHeaderAlignmentRight">Right</label>
+            <input type="radio" name="itemHeaderAlignment" id="itemHeaderAlignmentCenter" onclick="itemHeaderAlignmentCenter()" value="center" checked><label for="itemHeaderAlignmentCenter">Center</label>
+            <input type="radio" name="itemHeaderAlignment" id="itemHeaderAlignmentJustify" onclick="itemHeaderAlignmentJustify()" value="justify"><label for="itemHeaderAlignmentJustify">Justify</label>
+          </div>
+          <div class="radioContainer">
+            <legend>Content Text Width</legend><br>
+            <input type="radio" name="itemParagraphAlignment" id="itemParagraphAlignmentLeft" onclick="itemParagraphAlignmentLeft()" value="left"><label for="itemParagraphAlignmentLeft">Left</label>
+            <input type="radio" name="itemParagraphAlignment" id="itemParagraphAlignmentRight" onclick="itemParagraphAlignmentRight()" value="right"><label for="itemParagraphAlignmentRight">Right</label>
+            <input type="radio" name="itemParagraphAlignment" id="itemParagraphAlignmentCenter" onclick="itemParagraphAlignmentCenter()" value="center" checked><label for="itemParagraphAlignmentCenter">Center</label>
+            <input type="radio" name="itemParagraphAlignment" id="itemParagraphAlignmentJustify" onclick="itemParagraphAlignmentJustify()" value="justify"><label for="itemParagraphAlignmentJustify">Justify</label>
+          </div>
+          <div class="radioContainer">
+            <legend>Content Text Width</legend><br>
+            <input type="radio" name="copyrightAlignment" id="copyrightAlignmentLeft" onclick="copyrightAlignmentLeft()" value="left"><label for="copyrightAlignmentLeft">Left</label>
+            <input type="radio" name="copyrightAlignment" id="copyrightAlignmentRight" onclick="copyrightAlignmentRight()" value="right"><label for="copyrightAlignmentRight">Right</label>
+            <input type="radio" name="copyrightAlignment" id="copyrightAlignmentCenter" onclick="copyrightAlignmentCenter()" value="center" checked><label for="copyrightAlignmentCenter">Center</label>
+            <input type="radio" name="copyrightAlignment" id="copyrightAlignmentJustify" onclick="copyrightAlignmentJustify()" value="justify"><label for="copyrightAlignmentJustify">Justify</label>
+          </div>
+        </div>
+      </details>
+
+      <details class="addCustomImages">
+        <summary>Custom Images</summary>
+        <div id="customImageInput" class="customImageInput ">
+          <select id="customImageSelectId">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="35">35</option>
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+            <option value="46">46</option>
+            <option value="47">47</option>
+            <option value="48">48</option>
+            <option value="49">49</option>
+            <option value="50">50</option>
+          </select>
+          <button id="customImageElementState">Show Image</button>
+          
+          <div id="customImageSelector1">
+            <input type="file" id="customInputImage1">
+            <div id="customCropPreview1"></div>
+            <button id="CustomCropCustomImage1">Crop Image</button>
+            <button id="CustomRevertImage1">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector2">
+            <input type="file" id="customInputImage2">
+            <div id="customCropPreview2"></div>
+            <button id="CustomCropCustomImage2">Crop Image</button>
+            <button id="CustomRevertImage2">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector3">
+            <input type="file" id="customInputImage3">
+            <div id="customCropPreview3"></div>
+            <button id="CustomCropCustomImage3">Crop Image</button>
+            <button id="CustomRevertImage3">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector4">
+            <input type="file" id="customInputImage4">
+            <div id="customCropPreview4"></div>
+            <button id="CustomCropCustomImage4">Crop Image</button>
+            <button id="CustomRevertImage4">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector5">
+            <input type="file" id="customInputImage5">
+            <div id="customCropPreview5"></div>
+            <button id="CustomCropCustomImage5">Crop Image</button>
+            <button id="CustomRevertImage5">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector6">
+            <input type="file" id="customInputImage6">
+            <div id="customCropPreview6"></div>
+            <button id="CustomCropCustomImage6">Crop Image</button>
+            <button id="CustomRevertImage6">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector7">
+            <input type="file" id="customInputImage7">
+            <div id="customCropPreview7"></div>
+            <button id="CustomCropCustomImage7">Crop Image</button>
+            <button id="CustomRevertImage7">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector8">
+            <input type="file" id="customInputImage8">
+            <div id="customCropPreview8"></div>
+            <button id="CustomCropCustomImage8">Crop Image</button>
+            <button id="CustomRevertImage8">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector9">
+            <input type="file" id="customInputImage9">
+            <div id="customCropPreview9"></div>
+            <button id="CustomCropCustomImage9">Crop Image</button>
+            <button id="CustomRevertImage9">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector10">
+            <input type="file" id="customInputImage10">
+            <div id="customCropPreview10"></div>
+            <button id="CustomCropCustomImage10">Crop Image</button>
+            <button id="CustomRevertImage10">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector11">
+            <input type="file" id="customInputImage11">
+            <div id="customCropPreview11"></div>
+            <button id="CustomCropCustomImage11">Crop Image</button>
+            <button id="CustomRevertImage11">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector12">
+            <input type="file" id="customInputImage12">
+            <div id="customCropPreview12"></div>
+            <button id="CustomCropCustomImage12">Crop Image</button>
+            <button id="CustomRevertImage12">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector13">
+            <input type="file" id="customInputImage13">
+            <div id="customCropPreview13"></div>
+            <button id="CustomCropCustomImage13">Crop Image</button>
+            <button id="CustomRevertImage13">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector14">
+            <input type="file" id="customInputImage14">
+            <div id="customCropPreview14"></div>
+            <button id="CustomCropCustomImage14">Crop Image</button>
+            <button id="CustomRevertImage14">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector15">
+            <input type="file" id="customInputImage15">
+            <div id="customCropPreview15"></div>
+            <button id="CustomCropCustomImage15">Crop Image</button>
+            <button id="CustomRevertImage15">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector16">
+            <input type="file" id="customInputImage16">
+            <div id="customCropPreview16"></div>
+            <button id="CustomCropCustomImage16">Crop Image</button>
+            <button id="CustomRevertImage16">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector17">
+            <input type="file" id="customInputImage17">
+            <div id="customCropPreview17"></div>
+            <button id="CustomCropCustomImage17">Crop Image</button>
+            <button id="CustomRevertImage17">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector18">
+            <input type="file" id="customInputImage18">
+            <div id="customCropPreview18"></div>
+            <button id="CustomCropCustomImage18">Crop Image</button>
+            <button id="CustomRevertImage18">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector19">
+            <input type="file" id="customInputImage19">
+            <div id="customCropPreview19"></div>
+            <button id="CustomCropCustomImage19">Crop Image</button>
+            <button id="CustomRevertImage19">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector20">
+            <input type="file" id="customInputImage20">
+            <div id="customCropPreview20"></div>
+            <button id="CustomCropCustomImage20">Crop Image</button>
+            <button id="CustomRevertImage20">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector21">
+            <input type="file" id="customInputImage21">
+            <div id="customCropPreview21"></div>
+            <button id="CustomCropCustomImage21">Crop Image</button>
+            <button id="CustomRevertImage21">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector22">
+            <input type="file" id="customInputImage22">
+            <div id="customCropPreview22"></div>
+            <button id="CustomCropCustomImage22">Crop Image</button>
+            <button id="CustomRevertImage22">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector23">
+            <input type="file" id="customInputImage23">
+            <div id="customCropPreview23"></div>
+            <button id="CustomCropCustomImage23">Crop Image</button>
+            <button id="CustomRevertImage23">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector24">
+            <input type="file" id="customInputImage24">
+            <div id="customCropPreview24"></div>
+            <button id="CustomCropCustomImage24">Crop Image</button>
+            <button id="CustomRevertImage24">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector25">
+            <input type="file" id="customInputImage25">
+            <div id="customCropPreview25"></div>
+            <button id="CustomCropCustomImage25">Crop Image</button>
+            <button id="CustomRevertImage25">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector26">
+            <input type="file" id="customInputImage26">
+            <div id="customCropPreview26"></div>
+            <button id="CustomCropCustomImage26">Crop Image</button>
+            <button id="CustomRevertImage26">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector27">
+            <input type="file" id="customInputImage27">
+            <div id="customCropPreview27"></div>
+            <button id="CustomCropCustomImage27">Crop Image</button>
+            <button id="CustomRevertImage27">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector28">
+            <input type="file" id="customInputImage28">
+            <div id="customCropPreview28"></div>
+            <button id="CustomCropCustomImage28">Crop Image</button>
+            <button id="CustomRevertImage28">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector29">
+            <input type="file" id="customInputImage29">
+            <div id="customCropPreview29"></div>
+            <button id="CustomCropCustomImage29">Crop Image</button>
+            <button id="CustomRevertImage29">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector30">
+            <input type="file" id="customInputImage30">
+            <div id="customCropPreview30"></div>
+            <button id="CustomCropCustomImage30">Crop Image</button>
+            <button id="CustomRevertImage30">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector31">
+            <input type="file" id="customInputImage31">
+            <div id="customCropPreview31"></div>
+            <button id="CustomCropCustomImage31">Crop Image</button>
+            <button id="CustomRevertImage31">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector32">
+            <input type="file" id="customInputImage32">
+            <div id="customCropPreview32"></div>
+            <button id="CustomCropCustomImage32">Crop Image</button>
+            <button id="CustomRevertImage32">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector33">
+            <input type="file" id="customInputImage33">
+            <div id="customCropPreview33"></div>
+            <button id="CustomCropCustomImage33">Crop Image</button>
+            <button id="CustomRevertImage33">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector34">
+            <input type="file" id="customInputImage34">
+            <div id="customCropPreview34"></div>
+            <button id="CustomCropCustomImage34">Crop Image</button>
+            <button id="CustomRevertImage34">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector35">
+            <input type="file" id="customInputImage35">
+            <div id="customCropPreview35"></div>
+            <button id="CustomCropCustomImage35">Crop Image</button>
+            <button id="CustomRevertImage35">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector36">
+            <input type="file" id="customInputImage36">
+            <div id="customCropPreview36"></div>
+            <button id="CustomCropCustomImage36">Crop Image</button>
+            <button id="CustomRevertImage36">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector37">
+            <input type="file" id="customInputImage37">
+            <div id="customCropPreview37"></div>
+            <button id="CustomCropCustomImage37">Crop Image</button>
+            <button id="CustomRevertImage37">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector38">
+            <input type="file" id="customInputImage38">
+            <div id="customCropPreview38"></div>
+            <button id="CustomCropCustomImage38">Crop Image</button>
+            <button id="CustomRevertImage38">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector39">
+            <input type="file" id="customInputImage39">
+            <div id="customCropPreview39"></div>
+            <button id="CustomCropCustomImage39">Crop Image</button>
+            <button id="CustomRevertImage39">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector40">
+            <input type="file" id="customInputImage40">
+            <div id="customCropPreview40"></div>
+            <button id="CustomCropCustomImage40">Crop Image</button>
+            <button id="CustomRevertImage40">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector41">
+            <input type="file" id="customInputImage41">
+            <div id="customCropPreview41"></div>
+            <button id="CustomCropCustomImage41">Crop Image</button>
+            <button id="CustomRevertImage41">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector42">
+            <input type="file" id="customInputImage42">
+            <div id="customCropPreview42"></div>
+            <button id="CustomCropCustomImage42">Crop Image</button>
+            <button id="CustomRevertImage42">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector43">
+            <input type="file" id="customInputImage43">
+            <div id="customCropPreview43"></div>
+            <button id="CustomCropCustomImage43">Crop Image</button>
+            <button id="CustomRevertImage43">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector44">
+            <input type="file" id="customInputImage44">
+            <div id="customCropPreview44"></div>
+            <button id="CustomCropCustomImage44">Crop Image</button>
+            <button id="CustomRevertImage44">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector45">
+            <input type="file" id="customInputImage45">
+            <div id="customCropPreview45"></div>
+            <button id="CustomCropCustomImage45">Crop Image</button>
+            <button id="CustomRevertImage45">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector46">
+            <input type="file" id="customInputImage46">
+            <div id="customCropPreview46"></div>
+            <button id="CustomCropCustomImage46">Crop Image</button>
+            <button id="CustomRevertImage46">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector47">
+            <input type="file" id="customInputImage47">
+            <div id="customCropPreview47"></div>
+            <button id="CustomCropCustomImage47">Crop Image</button>
+            <button id="CustomRevertImage47">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector48">
+            <input type="file" id="customInputImage48">
+            <div id="customCropPreview48"></div>
+            <button id="CustomCropCustomImage48">Crop Image</button>
+            <button id="CustomRevertImage48">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector49">
+            <input type="file" id="customInputImage49">
+            <div id="customCropPreview49"></div>
+            <button id="CustomCropCustomImage49">Crop Image</button>
+            <button id="CustomRevertImage49">Revert Image</button>            
+          </div>
+          <div style="display: none;" id="customImageSelector50">
+            <input type="file" id="customInputImage50">
+            <div id="customCropPreview50"></div>
+            <button id="CustomCropCustomImage50">Crop Image</button>
+            <button id="CustomRevertImage50">Revert Image</button>            
+          </div>
+          
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="customImageTop" min="0" max="140" value="0">
+            <input type="number" name="customImageTopEnter" id="customImageTopEnter" value="0"><span>px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="customImageLeft" min="0" max="140" value="0">
+            <input type="number" name="customImageLeftEnter" id="customImageLeftEnter" value="0"><span>px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="customImageWidth" min="2" max="50" value="10"><span id="customImageWidthIndicator">100px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="customImageHeight" min="2" max="50" value="10"><span id="customImageHeightIndicator">Auto</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="customImageBorderRadius" min="0" max="40" value="0"><span id="customImageBorderRadiusIndicator">0px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="customImageRotate" min="0" max="36" value="0"><span id="customImageRotateIndicator">0deg</span>
+          </div>
+          <div class="rangeContainerSmall">
+            <legend>Content Text Width</legend><br><input type="range" id="customImgBoxPadding" min="0" max="15" value="3"><span id="customImgBoxPaddingIndicator">15px</span>
+          </div>
+          <div class="rangeContainerSmall">
+            <legend>Content Text Width</legend><br><input type="range" id="customImgBoxBorderRadius" min="0" max="40" value="2"><span id="customImgBoxBorderRadiusIndicator">10px</span>
+          </div>
+          <div class="colorContainer">
+            <legend>First Title</legend><br><input type="color" id="customImageBoxBackgroundColor" value="#efeeee"><span id="customImageBoxBackgroundColorIndicator">#efeeee</span>
+            <button id="customImageBoxBackgroundRemove">Remove Bg</button>
+          </div>
+          <div class="boxShadowInput">
+            <div class="boxShadowContainer">
+              <div class="colorContainer">
+                <legend>Image Box Shadow</legend><br>
+                <input type="color" id="customImageBoxBoxShadow1" value="#ffffff"><span id="customImageBoxBoxShadow1Indicator">#ffffff</span>
+                <input type="color" id="customImageBoxBoxShadow2" value="#d1cdc7"><span id="customImageBoxBoxShadow2Indicator">#d1cdc7</span>
+              </div>
+              <div class="radioContainer">
+                <input type="radio" name="customImageBoxBoxShadowWay" id="customImageBoxBoxShadowOutside" onclick="customImageBoxBoxShadowOutside()" value="outside"><label for="customImageBoxBoxShadowOutside">Outside &nbsp;</label>
+                <input type="radio" name="customImageBoxBoxShadowWay" id="customImageBoxBoxShadowInside" onclick="customImageBoxBoxShadowInside()" value="inside"><label for="customImageBoxBoxShadowInside">Inside &nbsp;</label>
+                <input type="radio" name="customImageBoxBoxShadowWay" id="customImageBoxBoxShadowNone" onclick="customImageBoxBoxShadowNone()" value="none" checked><label for="customImageBoxBoxShadowNone">None &nbsp;</label>
+              </div>
+            </div>
+          </div>
+          <div class="backgroundGradientInput">
+            <div class="backgroundGradientPattern1" id="customBgImageBox1"></div>
+            <div class="backgroundGradientPattern2" id="customBgImageBox2"></div>
+            <div class="backgroundGradientPattern3" id="customBgImageBox3"></div>
+            <div class="backgroundGradientPattern4" id="customBgImageBox4"></div>
+            <div class="backgroundGradientPattern5" id="customBgImageBox5"></div>
+            <div class="backgroundGradientPattern6" id="customBgImageBox6"></div>
+            <div class="backgroundGradientPattern7" id="customBgImageBox7"></div>
+            <div class="backgroundGradientPattern8" id="customBgImageBox8"></div>
+            <div class="backgroundGradientPattern9" id="customBgImageBox9"></div>
+            <div class="backgroundGradientPattern10" id="customBgImageBox10"></div>
+            <div class="backgroundGradientPatternNone" id="customBgImageBoxNone"></div>
+          </div>
+        </div>
+      </details>
+      
+      <details class="addCustomTexts">
+        <summary>Custom Texts</summary>
+        <div id="customTextInput" class="customTextInput ">
+          <select id="customTextSelectId">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="35">35</option>
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+            <option value="46">46</option>
+            <option value="47">47</option>
+            <option value="48">48</option>
+            <option value="49">49</option>
+            <option value="50">50</option>
+          </select>
+          <button id="customTextElementState">Show Text</button>
+          <input type="text" name="customTextInputField" id="customTextInputField" placeholder="Enter your text here">
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="customTextTop" min="0" max="140" value="0">
+            <input type="number" name="customTextTopEnter" id="customTextTopEnter" value="0"><span>px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="customTextLeft" min="0" max="140" value="0">
+            <input type="number" name="customTextLeftEnter" id="customTextLeftEnter" value="0"><span>px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="customTextWidth" min="1" max="50" value="15"><span id="customTextWidthIndicator">300px</span>
+          </div>
+        </div>
+      </details>
+
+      <details class="contentBoxProperties">
+        <summary>Box Properties</summary>
+        <details class="contentWidths subGroup">
+          <summary>Widths</summary>
+          <div class="widthsInput">
+            <div class="rangeContainerSmall">
+              <legend>Container Width</legend><br><input type="range" id="containerWidth" min="2" max="28" value="10"><span id="containerWidthIndicator">500px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Text Boxes Widths</legend><br><input type="range" id="textFieldWidth" min="4" max="80" value="10"><span id="textFieldWidthIndicator">100px</span>
+            </div>
+            <div class="radioContainer">
+              <legend>Title Width</legend><br>
+              <input type="radio" name="titleWidth" id="titleWidthMax" onclick="titleWidthMax()" value="max" checked><label for="titleWidthMax">Max Width</label>
+              <input type="radio" name="titleWidth" id="titleWidthFitContent" onclick="titleWidthFitContent()" value="fit"><label for="titleWidthFitContent">Fit Content</label>
+            </div>
+            <div class="radioContainer widthLastRadioGroup">
+              <legend>Copyright Width</legend><br>
+              <input type="radio" name="copyrightWidth" id="copyrightWidthMax" onclick="copyrightWidthMax()" value="max"><label for="copyrightWidthMax">Max Width</label>
+              <input type="radio" name="copyrightWidth" id="copyrightWidthFitContent" onclick="copyrightWidthFitContent()" value="fit" checked><label for="copyrightWidthFitContent">Fit Content</label>
+            </div>
+          </div>
+        </details>
+
+        <details class="subGroup">
+          <summary>Margins</summary>
+          <div class="marginsInput">
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="boxMarginLeftRight" min="0" max="15" value="0"><span id="boxMarginLeftRightIndicator">0px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="boxMarginTop" min="0" max="15" value="3"><span id="boxMarginTopIndicator">15px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="textBoxMargin" min="0" max="15" value="2"><span id="textBoxMarginIndicator">10px</span>
+            </div>
+          </div>
+        </details>
+        
+        <details class="subGroup">
+          <summary>Paddings</summary>
+          <div class="paddingsInput">
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="containerPadding" min="0" max="20" value="8"><span id="containerPaddingIndicator">40px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="titlePadding" min="0" max="20" value="5"><span id="titlePaddingIndicator">10px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="itemBoxPadding" min="0" max="30" value="4"><span id="itemBoxPaddingIndicator">8px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="imgBoxPadding" min="0" max="15" value="8"><span id="imgBoxPaddingIndicator">16px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="boxTextPadding" min="0" max="20" value="5"><span id="boxTextPaddingIndicator">5px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="copyrightPadding" min="0" max="20" value="8"><span id="copyrightPaddingIndicator">8px</span>
+            </div>
+          </div>
+        </details>
+        
+        <details class="subGroup lastItem">
+          <summary>Border Radiuses</summary>
+          <div class="borderRadiusesInput">
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="containerBorderRadius" min="0" max="40" value="2"><span id="containerBorderRadiusIndicator">10px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="titleBorderRadius" min="0" max="40" value="2"><span id="titleBorderRadiusIndicator">10px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="itemBoxBorderRadius" min="0" max="40" value="2"><span id="itemBoxBorderRadiusIndicator">10px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="imgBoxBorderRadius" min="0" max="40" value="20"><span id="imgBoxBorderRadiusIndicator">100px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="boxTextBorderRadius" min="0" max="40" value="2"><span id="boxTextBorderRadiusIndicator">10px</span>
+            </div>
+            <div class="rangeContainerSmall">
+              <legend>Content Text Width</legend><br><input type="range" id="copyrightMessageBorderRadius" min="0" max="40" value="2"><span id="copyrightMessageBorderRadiusIndicator">10px</span>
+            </div>
+          </div>
+        </details>
+      </details>
+
+      <details class="contentTextProperties">
+        <summary>Text Properties</summary>
+        <details class="subGroup">
+          <summary>First Title</summary>
+          <select id="firstTitleFontName">
+            <option value="Arial">Arial</option>
+            <option value="Baskerville">Baskerville</option>
+            <option value="Calibri">Calibri</option>
+            <option value="Calisto MT">Calisto MT</option>
+            <option value="Cambria">Cambria</option>
+            <option value="Candara">Candara</option>
+            <option value="Century Gothic">Century Gothic</option>
+            <option value="Consolas">Consolas</option>
+            <option value="Copperplate Gothic">Copperplate Gothic</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Didot">Didot</option>
+            <option value="Franklin Gothic">Franklin Gothic</option>
+            <option value="Garamond">Garamond</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Goudy Old Style">Goudy Old Style</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Impact">Impact</option>
+            <option value="Lucida Bright">Lucida Bright</option>
+            <option value="Microsoft Sans Serif">Microsoft Sans Serif</option>
+            <option value="Rockwell">Rockwell</option>
+            <option value="Segoe UI">Segoe UI</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Trebuchet MS" selected>Trebuchet MS</option>
+            <option value="Verdana">Verdana</option>
+          </select>
+          <input type="checkbox" id="firstTitleFontBold" checked><label for="firstTitleFontBold">Bold</label>
+          <input type="checkbox" id="firstTitleFontItalic"><label for="firstTitleFontItalic">Italic</label>
+          <input type="checkbox" id="firstTitleFontUnderline"><label for="firstTitleFontUnderline">Underline</label>
+          <input type="checkbox" id="firstTitleFontUppercase" checked><label for="firstTitleFontUppercase">Uppercase</label>
+        </details>
+        
+        <details class="subGroup">
+          <summary>Second Title</summary>
+          <select id="secondTitleFontName">
+            <option value="Arial">Arial</option>
+            <option value="Baskerville">Baskerville</option>
+            <option value="Calibri">Calibri</option>
+            <option value="Calisto MT">Calisto MT</option>
+            <option value="Cambria">Cambria</option>
+            <option value="Candara">Candara</option>
+            <option value="Century Gothic">Century Gothic</option>
+            <option value="Consolas">Consolas</option>
+            <option value="Copperplate Gothic">Copperplate Gothic</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Didot">Didot</option>
+            <option value="Franklin Gothic">Franklin Gothic</option>
+            <option value="Garamond">Garamond</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Goudy Old Style">Goudy Old Style</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Impact">Impact</option>
+            <option value="Lucida Bright">Lucida Bright</option>
+            <option value="Microsoft Sans Serif">Microsoft Sans Serif</option>
+            <option value="Rockwell">Rockwell</option>
+            <option value="Segoe UI">Segoe UI</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Trebuchet MS" selected>Trebuchet MS</option>
+            <option value="Verdana">Verdana</option>
+          </select>
+          <input type="checkbox" id="secondTitleFontBold" checked><label for="secondTitleFontBold">Bold</label>
+          <input type="checkbox" id="secondTitleFontItalic"><label for="secondTitleFontItalic">Italic</label>
+          <input type="checkbox" id="secondTitleFontUnderline"><label for="secondTitleFontUnderline">Underline</label>
+          <input type="checkbox" id="secondTitleFontUppercase" checked><label for="secondTitleFontUppercase">Uppercase</label>
+        </details>
+        
+        <details class="subGroup">
+          <summary>Content Header</summary>
+          <select id="boxHeaderFontName">
+            <option value="Arial">Arial</option>
+            <option value="Baskerville">Baskerville</option>
+            <option value="Calibri">Calibri</option>
+            <option value="Calisto MT">Calisto MT</option>
+            <option value="Cambria">Cambria</option>
+            <option value="Candara">Candara</option>
+            <option value="Century Gothic">Century Gothic</option>
+            <option value="Consolas">Consolas</option>
+            <option value="Copperplate Gothic">Copperplate Gothic</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Didot">Didot</option>
+            <option value="Franklin Gothic">Franklin Gothic</option>
+            <option value="Garamond">Garamond</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Goudy Old Style">Goudy Old Style</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Impact">Impact</option>
+            <option value="Lucida Bright">Lucida Bright</option>
+            <option value="Microsoft Sans Serif">Microsoft Sans Serif</option>
+            <option value="Rockwell">Rockwell</option>
+            <option value="Segoe UI">Segoe UI</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Times New Roman" selected>Times New Roman</option>
+            <option value="Trebuchet MS">Trebuchet MS</option>
+            <option value="Verdana">Verdana</option>
+          </select>
+          <input type="checkbox" id="boxHeaderFontBold" checked><label for="boxHeaderFontBold">Bold</label>
+          <input type="checkbox" id="boxHeaderFontItalic"><label for="boxHeaderFontItalic">Italic</label>
+          <input type="checkbox" id="boxHeaderFontUnderline"><label for="boxHeaderFontUnderline">Underline</label>
+          <input type="checkbox" id="boxHeaderFontUppercase" checked><label for="boxHeaderFontUppercase">Uppercase</label>
+        </details>
+        
+        <details class="subGroup">
+          <summary>Content Body</summary>
+          <select id="boxParagraphFontName">
+            <option value="Arial">Arial</option>
+            <option value="Baskerville">Baskerville</option>
+            <option value="Calibri">Calibri</option>
+            <option value="Calisto MT">Calisto MT</option>
+            <option value="Cambria">Cambria</option>
+            <option value="Candara">Candara</option>
+            <option value="Century Gothic">Century Gothic</option>
+            <option value="Consolas">Consolas</option>
+            <option value="Copperplate Gothic">Copperplate Gothic</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Didot">Didot</option>
+            <option value="Franklin Gothic">Franklin Gothic</option>
+            <option value="Garamond">Garamond</option>
+            <option value="Georgia" selected>Georgia</option>
+            <option value="Goudy Old Style">Goudy Old Style</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Impact">Impact</option>
+            <option value="Lucida Bright">Lucida Bright</option>
+            <option value="Microsoft Sans Serif">Microsoft Sans Serif</option>
+            <option value="Rockwell">Rockwell</option>
+            <option value="Segoe UI">Segoe UI</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Trebuchet MS">Trebuchet MS</option>
+            <option value="Verdana">Verdana</option>
+          </select>
+          <input type="checkbox" id="boxParagraphFontBold"><label for="boxParagraphFontBold">Bold</label>
+          <input type="checkbox" id="boxParagraphFontItalic"><label for="boxParagraphFontItalic">Italic</label>
+          <input type="checkbox" id="boxParagraphFontUnderline"><label for="boxParagraphFontUnderline">Underline</label>
+          <input type="checkbox" id="boxParagraphFontUppercase"><label for="boxParagraphFontUppercase">Uppercase</label>
+        </details>
+        
+        <details class="subGroup">
+          <summary>Copyright Text</summary>
+          <select id="copyrightSpanFontName">
+            <option value="Arial">Arial</option>
+            <option value="Baskerville">Baskerville</option>
+            <option value="Calibri">Calibri</option>
+            <option value="Calisto MT">Calisto MT</option>
+            <option value="Cambria">Cambria</option>
+            <option value="Candara">Candara</option>
+            <option value="Century Gothic">Century Gothic</option>
+            <option value="Consolas">Consolas</option>
+            <option value="Copperplate Gothic">Copperplate Gothic</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Didot">Didot</option>
+            <option value="Franklin Gothic">Franklin Gothic</option>
+            <option value="Garamond">Garamond</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Goudy Old Style">Goudy Old Style</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Impact">Impact</option>
+            <option value="Lucida Bright">Lucida Bright</option>
+            <option value="Microsoft Sans Serif">Microsoft Sans Serif</option>
+            <option value="Rockwell">Rockwell</option>
+            <option value="Segoe UI">Segoe UI</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Trebuchet MS">Trebuchet MS</option>
+            <option value="Verdana" selected>Verdana</option>
+          </select>
+          <input type="checkbox" id="copyrightSpanFontBold"><label for="copyrightSpanFontBold">Bold</label>
+          <input type="checkbox" id="copyrightSpanFontItalic"><label for="copyrightSpanFontItalic">Italic</label>
+          <input type="checkbox" id="copyrightSpanFontUnderline"><label for="copyrightSpanFontUnderline">Underline</label>
+          <input type="checkbox" id="copyrightSpanFontUppercase"><label for="copyrightSpanFontUppercase">Uppercase</label>
+        </details>
+        
+        <details class="subGroup lastItem">
+          <summary>Copyright Links</summary>
+          <select id="copyrightLinksFontName">
+            <option value="Arial">Arial</option>
+            <option value="Baskerville">Baskerville</option>
+            <option value="Calibri">Calibri</option>
+            <option value="Calisto MT">Calisto MT</option>
+            <option value="Cambria">Cambria</option>
+            <option value="Candara">Candara</option>
+            <option value="Century Gothic">Century Gothic</option>
+            <option value="Consolas">Consolas</option>
+            <option value="Copperplate Gothic">Copperplate Gothic</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Didot">Didot</option>
+            <option value="Franklin Gothic">Franklin Gothic</option>
+            <option value="Garamond">Garamond</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Goudy Old Style">Goudy Old Style</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Impact">Impact</option>
+            <option value="Lucida Bright">Lucida Bright</option>
+            <option value="Microsoft Sans Serif">Microsoft Sans Serif</option>
+            <option value="Rockwell">Rockwell</option>
+            <option value="Segoe UI">Segoe UI</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Trebuchet MS">Trebuchet MS</option>
+            <option value="Verdana" selected>Verdana</option>
+          </select>
+          <input type="checkbox" id="copyrightLinksFontBold" checked><label for="copyrightLinksFontBold">Bold</label>
+          <input type="checkbox" id="copyrightLinksFontItalic"><label for="copyrightLinksFontItalic">Italic</label>
+          <input type="checkbox" id="copyrightLinksFontUnderline"><label for="copyrightLinksFontUnderline">Underline</label>
+          <input type="checkbox" id="copyrightLinksFontUppercase"><label for="copyrightLinksFontUppercase">Uppercase</label>
+        </details> 
+      </details>
+      
+      <details class="contentImageProperties">
+        <summary>Image Properties</summary>
+        <div class="imagePropertiesInput">
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="imgWidth" min="2" max="30" value="10"><span id="imgWidthIndicator">50px</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="imgHeight" min="2" max="30" value="10"><span id="imgHeightIndicator">Auto</span>
+          </div>
+          <div class="rangeContainer">
+            <legend>Content Text Width</legend><br><input type="range" id="imgBorderRadius" min="0" max="40" value="0"><span id="imgBorderRadiusIndicator">0px</span>
+          </div>
+        </div>
+        
+      </details>
+      
+      <details class="contentBackgroundColors">
+        <summary>Background Colors</summary>
+        <div class="backgroundColorInput">
+          <div class="colorContainer">
+            <legend>First Title</legend><br><input type="color" id="containerBackgroundColor" value="#efeeee"><span id="containerBackgroundColorIndicator">#efeeee</span>
+            <button id="containerBackgroundRemove">Remove Bg</button>
+          </div>
+          <div class="colorContainer">
+            <legend>First Title</legend><br><input type="color" id="titleBackgroundColor" value="#efeeee"><span id="titleBackgroundColorIndicator">#efeeee</span>
+            <button id="titleBackgroundRemove">Remove Bg</button>
+          </div>
+          <div class="colorContainer">
+            <legend>First Title</legend><br><input type="color" id="itemBoxBackgroundColor" value="#efeeee"><span id="itemBoxBackgroundColorIndicator">#efeeee</span>
+            <button id="itemBoxBackgroundRemove">Remove Bg</button>
+          </div>
+          <div class="colorContainer">
+            <legend>First Title</legend><br><input type="color" id="imageBoxBackgroundColor" value="#efeeee"><span id="imageBoxBackgroundColorIndicator">#efeeee</span>
+            <button id="imageBoxBackgroundRemove">Remove Bg</button>
+          </div>
+          <div class="colorContainer">
+            <legend>First Title</legend><br><input type="color" id="textBoxBackgroundColor" value="#efeeee"><span id="textBoxBackgroundColorIndicator">#efeeee</span>
+            <button id="textBoxBackgroundRemove">Remove Bg</button>
+          </div>
+          <div class="colorContainer">
+            <legend>First Title</legend><br><input type="color" id="copyrightMessageBackgroundColor" value="#efeeee"><span id="copyrightMessageBackgroundColorIndicator">#efeeee</span>
+            <button id="copyrightMessageBackgroundRemove">Remove Bg</button>
+          </div>
+        </div>
+      </details>
+      
+      <details class="contentBoxShadows">
+        <summary>Box Shadows</summary>
+        <div class="boxShadowInput">
+          <div class="boxShadowContainer">
+            <div class="colorContainer">
+              <legend>Container Shadow</legend><br>
+              <input type="color" id="containerBoxShadow1" value="#ffffff"><span id="containerBoxShadow1Indicator">#ffffff</span>
+              <input type="color" id="containerBoxShadow2" value="#d1cdc7"><span id="containerBoxShadow2Indicator">#d1cdc7</span>
+            </div>
+            <div class="radioContainer">
+              <input type="radio" name="containerBoxShadowWay" id="containerBoxShadowOutside" onclick="containerBoxShadowOutside()" value="outside" checked><label for="containerBoxShadowOutside">Outside &nbsp;</label>
+              <input type="radio" name="containerBoxShadowWay" id="containerBoxShadowInside" onclick="containerBoxShadowInside()" value="inside"><label for="containerBoxShadowInside">Inside &nbsp;</label>
+              <input type="radio" name="containerBoxShadowWay" id="containerBoxShadowNone" onclick="containerBoxShadowNone()" value="none"><label for="containerBoxShadowNone">None &nbsp;</label>
+            </div>
+          </div>
+        </div>
+        <div class="boxShadowInput">
+          <div class="boxShadowContainer">
+            <div class="colorContainer">
+              <legend>Title Shadow</legend><br>
+              <input type="color" id="titleBoxShadow1" value="#ffffff"><span id="titleBoxShadow1Indicator">#ffffff</span>
+              <input type="color" id="titleBoxShadow2" value="#d1cdc7"><span id="titleBoxShadow2Indicator">#d1cdc7</span>
+            </div>
+            <div class="radioContainer">
+              <input type="radio" name="titleBoxShadowWay" id="titleBoxShadowOutside" onclick="titleBoxShadowOutside()" value="outside" checked><label for="titleBoxShadowOutside">Outside &nbsp;</label>
+              <input type="radio" name="titleBoxShadowWay" id="titleBoxShadowInside" onclick="titleBoxShadowInside()" value="inside"><label for="titleBoxShadowInside">Inside &nbsp;</label>
+              <input type="radio" name="titleBoxShadowWay" id="titleBoxShadowNone" onclick="titleBoxShadowNone()" value="none"><label for="titleBoxShadowNone">None &nbsp;</label>
+            </div>
+          </div>
+        </div>
+        <div class="boxShadowInput">
+          <div class="boxShadowContainer">
+            <div class="colorContainer">
+              <legend>Item Box Shadow</legend><br>
+              <input type="color" id="itemBoxBoxShadow1" value="#ffffff"><span id="itemBoxBoxShadow1Indicator">#ffffff</span>
+              <input type="color" id="itemBoxBoxShadow2" value="#d1cdc7"><span id="itemBoxBoxShadow2Indicator">#d1cdc7</span>
+            </div>
+            <div class="radioContainer">
+              <input type="radio" name="itemBoxBoxShadowWay" id="itemBoxBoxShadowOutside" onclick="itemBoxBoxShadowOutside()" value="outside"><label for="itemBoxBoxShadowOutside">Outside &nbsp;</label>
+              <input type="radio" name="itemBoxBoxShadowWay" id="itemBoxBoxShadowInside" onclick="itemBoxBoxShadowInside()" value="inside"><label for="itemBoxBoxShadowInside">Inside &nbsp;</label>
+              <input type="radio" name="itemBoxBoxShadowWay" id="itemBoxBoxShadowNone" onclick="itemBoxBoxShadowNone()" value="none" checked><label for="itemBoxBoxShadowNone">None &nbsp;</label>
+            </div>
+          </div>
+        </div>
+        <div class="boxShadowInput">
+          <div class="boxShadowContainer">
+            <div class="colorContainer">
+              <legend>Image Box Shadow</legend><br>
+              <input type="color" id="imageBoxBoxShadow1" value="#ffffff"><span id="imageBoxBoxShadow1Indicator">#ffffff</span>
+              <input type="color" id="imageBoxBoxShadow2" value="#d1cdc7"><span id="imageBoxBoxShadow2Indicator">#d1cdc7</span>
+            </div>
+            <div class="radioContainer">
+              <input type="radio" name="imageBoxBoxShadowWay" id="imageBoxBoxShadowOutside" onclick="imageBoxBoxShadowOutside()" value="outside" checked><label for="imageBoxBoxShadowOutside">Outside &nbsp;</label>
+              <input type="radio" name="imageBoxBoxShadowWay" id="imageBoxBoxShadowInside" onclick="imageBoxBoxShadowInside()" value="inside"><label for="imageBoxBoxShadowInside">Inside &nbsp;</label>
+              <input type="radio" name="imageBoxBoxShadowWay" id="imageBoxBoxShadowNone" onclick="imageBoxBoxShadowNone()" value="none"><label for="imageBoxBoxShadowNone">None &nbsp;</label>
+            </div>
+          </div>
+        </div>
+        <div class="boxShadowInput">
+          <div class="boxShadowContainer">
+            <div class="colorContainer">
+              <legend>Text Box Shadow</legend><br>
+              <input type="color" id="textBoxBoxShadow1" value="#ffffff"><span id="textBoxBoxShadow1Indicator">#ffffff</span>
+              <input type="color" id="textBoxBoxShadow2" value="#d1cdc7"><span id="textBoxBoxShadow2Indicator">#d1cdc7</span>
+            </div>
+            <div class="radioContainer">
+              <input type="radio" name="textBoxBoxShadowWay" id="textBoxBoxShadowOutside" onclick="textBoxBoxShadowOutside()" value="outside"><label for="textBoxBoxShadowOutside">Outside &nbsp;</label>
+              <input type="radio" name="textBoxBoxShadowWay" id="textBoxBoxShadowInside" onclick="textBoxBoxShadowInside()" value="inside" checked><label for="textBoxBoxShadowInside">Inside &nbsp;</label>
+              <input type="radio" name="textBoxBoxShadowWay" id="textBoxBoxShadowNone" onclick="textBoxBoxShadowNone()" value="none"><label for="textBoxBoxShadowNone">None &nbsp;</label>
+            </div>
+          </div>
+        </div>
+        <div class="boxShadowInput">
+          <div class="boxShadowContainer">
+            <div class="colorContainer">
+              <legend>Copyright Shadow</legend><br>
+              <input type="color" id="copyrightBoxShadow1" value="#ffffff"><span id="copyrightBoxShadow1Indicator">#ffffff</span>
+              <input type="color" id="copyrightBoxShadow2" value="#d1cdc7"><span id="copyrightBoxShadow2Indicator">#d1cdc7</span>
+            </div>
+            <div class="radioContainer">
+              <input type="radio" name="copyrightBoxShadowWay" id="copyrightBoxShadowOutside" onclick="copyrightBoxShadowOutside()" value="outside"><label for="copyrightBoxShadowOutside">Outside &nbsp;</label>
+              <input type="radio" name="copyrightBoxShadowWay" id="copyrightBoxShadowInside" onclick="copyrightBoxShadowInside()" value="inside" checked><label for="copyrightBoxShadowInside">Inside &nbsp;</label>
+              <input type="radio" name="copyrightBoxShadowWay" id="copyrightBoxShadowNone" onclick="copyrightBoxShadowNone()" value="none"><label for="copyrightBoxShadowNone">None &nbsp;</label>
+            </div>
+          </div>
+        </div>
+      </details>
+      
+      <details class="contentBackgroundGradients">
+        <summary>Background Gradients</summary>
+        <details class="subGroup">
+          <summary>Container Gradient</summary>
+          <div class="backgroundGradientInput">
+            <div class="backgroundGradientPattern1" id="bgContainer1"></div>
+            <div class="backgroundGradientPattern2" id="bgContainer2"></div>
+            <div class="backgroundGradientPattern3" id="bgContainer3"></div>
+            <div class="backgroundGradientPattern4" id="bgContainer4"></div>
+            <div class="backgroundGradientPattern5" id="bgContainer5"></div>
+            <div class="backgroundGradientPattern6" id="bgContainer6"></div>
+            <div class="backgroundGradientPattern7" id="bgContainer7"></div>
+            <div class="backgroundGradientPattern8" id="bgContainer8"></div>
+            <div class="backgroundGradientPattern9" id="bgContainer9"></div>
+            <div class="backgroundGradientPattern10" id="bgContainer10"></div>
+            <div class="backgroundGradientPatternNone" id="bgContainerNone"></div>
+          </div>
+        </details>
+        
+        <details class="subGroup">
+          <summary>Title Gradient</summary>
+          <div class="backgroundGradientInput">
+            <div class="backgroundGradientPattern1" id="bgTitle1"></div>
+            <div class="backgroundGradientPattern2" id="bgTitle2"></div>
+            <div class="backgroundGradientPattern3" id="bgTitle3"></div>
+            <div class="backgroundGradientPattern4" id="bgTitle4"></div>
+            <div class="backgroundGradientPattern5" id="bgTitle5"></div>
+            <div class="backgroundGradientPattern6" id="bgTitle6"></div>
+            <div class="backgroundGradientPattern7" id="bgTitle7"></div>
+            <div class="backgroundGradientPattern8" id="bgTitle8"></div>
+            <div class="backgroundGradientPattern9" id="bgTitle9"></div>
+            <div class="backgroundGradientPattern10" id="bgTitle10"></div>
+            <div class="backgroundGradientPatternNone" id="bgTitleNone"></div>
+          </div>
+        </details>
+        
+        <details class="subGroup">
+          <summary>Item Gradient</summary>
+          <div class="backgroundGradientInput">
+            <div class="backgroundGradientPattern1" id="bgItem1"></div>
+            <div class="backgroundGradientPattern2" id="bgItem2"></div>
+            <div class="backgroundGradientPattern3" id="bgItem3"></div>
+            <div class="backgroundGradientPattern4" id="bgItem4"></div>
+            <div class="backgroundGradientPattern5" id="bgItem5"></div>
+            <div class="backgroundGradientPattern6" id="bgItem6"></div>
+            <div class="backgroundGradientPattern7" id="bgItem7"></div>
+            <div class="backgroundGradientPattern8" id="bgItem8"></div>
+            <div class="backgroundGradientPattern9" id="bgItem9"></div>
+            <div class="backgroundGradientPattern10" id="bgItem10"></div>
+            <div class="backgroundGradientPatternNone" id="bgItemNone"></div>
+          </div>
+        </details>
+        
+        <details class="subGroup">
+          <summary>Content Image Gradient</summary>
+          <div class="backgroundGradientInput">
+            <div class="backgroundGradientPattern1" id="bgImageBox1"></div>
+            <div class="backgroundGradientPattern2" id="bgImageBox2"></div>
+            <div class="backgroundGradientPattern3" id="bgImageBox3"></div>
+            <div class="backgroundGradientPattern4" id="bgImageBox4"></div>
+            <div class="backgroundGradientPattern5" id="bgImageBox5"></div>
+            <div class="backgroundGradientPattern6" id="bgImageBox6"></div>
+            <div class="backgroundGradientPattern7" id="bgImageBox7"></div>
+            <div class="backgroundGradientPattern8" id="bgImageBox8"></div>
+            <div class="backgroundGradientPattern9" id="bgImageBox9"></div>
+            <div class="backgroundGradientPattern10" id="bgImageBox10"></div>
+            <div class="backgroundGradientPatternNone" id="bgImageBoxNone"></div>
+          </div>
+        </details>
+        
+        <details class="subGroup">
+          <summary>Content Text Gradient</summary>
+          <div class="backgroundGradientInput">
+            <div class="backgroundGradientPattern1" id="bgTextBox1"></div>
+            <div class="backgroundGradientPattern2" id="bgTextBox2"></div>
+            <div class="backgroundGradientPattern3" id="bgTextBox3"></div>
+            <div class="backgroundGradientPattern4" id="bgTextBox4"></div>
+            <div class="backgroundGradientPattern5" id="bgTextBox5"></div>
+            <div class="backgroundGradientPattern6" id="bgTextBox6"></div>
+            <div class="backgroundGradientPattern7" id="bgTextBox7"></div>
+            <div class="backgroundGradientPattern8" id="bgTextBox8"></div>
+            <div class="backgroundGradientPattern9" id="bgTextBox9"></div>
+            <div class="backgroundGradientPattern10" id="bgTextBox10"></div>
+            <div class="backgroundGradientPatternNone" id="bgTextBoxNone"></div>
+          </div>
+        </details>
+        
+        <details class="subGroup lastItem">
+          <summary>Copyright Gradient</summary>
+          <div class="backgroundGradientInput">
+            <div class="backgroundGradientPattern1" id="bgCopyright1"></div>
+            <div class="backgroundGradientPattern2" id="bgCopyright2"></div>
+            <div class="backgroundGradientPattern3" id="bgCopyright3"></div>
+            <div class="backgroundGradientPattern4" id="bgCopyright4"></div>
+            <div class="backgroundGradientPattern5" id="bgCopyright5"></div>
+            <div class="backgroundGradientPattern6" id="bgCopyright6"></div>
+            <div class="backgroundGradientPattern7" id="bgCopyright7"></div>
+            <div class="backgroundGradientPattern8" id="bgCopyright8"></div>
+            <div class="backgroundGradientPattern9" id="bgCopyright9"></div>
+            <div class="backgroundGradientPattern10" id="bgCopyright10"></div>
+            <div class="backgroundGradientPatternNone" id="bgCopyrightNone"></div>
+          </div>
+        </details>
+      </details>
+    </div>
+    
+    <div id="showPostBox" class="showPostBox"></div>
+
+    <a id="downloadImage" href="#" download="image.jpg" hidden>Download</a>
+    <img id='saveImageBox' hidden>
+    
+  </body>
+
+</html>
